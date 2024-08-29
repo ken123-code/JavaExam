@@ -27,7 +27,7 @@ public abstract class VatPham extends CauBeSpon{
     public abstract float soXuCanTieu();
 
     public void xuat(){
-        System.out.println("Chi so suc manh: "+ this.csSucManh +" -- He so suc manh: "+  this.heSoSucManh+ "-- vang da quy doi: " + this.soVangQuyDoiTren1SucCongPha);
+        System.out.println("Chi so suc manh: "+ this.csSucManh +" -- He so suc manh: "+  this.heSoSucManh+ "-- vang da quy doi: " + this.soVangQuyDoiTren1SucCongPha + "-- suc manh cong pha: " + this.sucCongPha());
     }
 
     public float getSoVangQuyDoiTren1SucCongPha() {
